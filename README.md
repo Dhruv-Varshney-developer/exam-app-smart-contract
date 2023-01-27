@@ -33,10 +33,10 @@ Detailed documentation is available at: https://web3py.readthedocs.io/en/stable/
 ### note: 
 These are some modules which you might need to install after these. Install all of them using
 ```pip3 install <module name> ``` or ```pip install <module name> ```
-If you still are not ale to run the project , simply google up the necesarry library and install it. 
+If you still are not ale to run the project , simply google up the necessary module and install it. 
 Contact me if you are not able to run the app even after googling.
 
-6)run ``` python3 manage.py runserver ``` in terminal after all necessary libraries are installed. 
+6)run ``` python3 manage.py runserver ``` in terminal after all necessary modules and libraries are installed. 
 
 ### Troubleshoot:
 
