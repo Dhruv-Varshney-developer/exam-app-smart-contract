@@ -46,11 +46,11 @@ If it gives port error , change the ```ganache_url``` in the ```exam_app/authent
 
 Download ganache from https://trufflesuite.com/ganache/ , if it is not installed
 
-Copy the commented code from "smart_contract" and deploy it on the local blockchain created using ganache.
+Copy the code from "exam_app/smart_contract" and deploy it on the local blockchain created using ganache.
 
 Steps:
-1)Open remix IDE. Copy the commented code from "smart_contract". Deploy it with external http provider. Your http provider is given in Ganache app installed on your system as "RPC SERVER" at second top bar.
+1)Open remix IDE. Copy the code from "exam_app/smart_contract". Deploy it with external http provider. Your http provider is given in Ganache app installed on your system as "RPC SERVER" at second top bar.
 
-2)copy the smart contract address and abi and change the one in  ```exam_app/smart_contract_integration.py``` to your address and abi.
+2)copy the smart contract address and abi and change the one in  ```exam_app/authentication/smart_contract_integration.py``` to your address and abi.
 Now run ``` python3 manage.py runserver ``` in terminal again.
 
