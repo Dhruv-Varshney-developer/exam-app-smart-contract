@@ -1,0 +1,10 @@
+{% extends 'authentication/base.html' %} {% block title %}Answer the question{% endblock %} 
+{% load crispy_forms_tags %} {% block content %}
+<div class="card mt-2">
+    <div class="card-header"><strong>@{{ Question }}</strong></div>
+    
+<form method="post">
+  {% csrf_token %}{{form|crispy}}
+  <button type="submit" class="btn btn-success">submit</button>
+</form>
+{% endblock %}
