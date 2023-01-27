@@ -36,11 +36,13 @@ These are some modules which you might need to install after these. Install all 
 If you still are not ale to run the project , simply google up the necessary module and install it. 
 Contact me if you are not able to run the app even after googling.
 
-6)run ``` python3 manage.py runserver ``` in terminal after all necessary modules and libraries are installed. 
+6)cd exam_app
+
+7)run ``` python3 manage.py runserver ``` in terminal after all necessary modules and libraries are installed. 
 
 ### Troubleshoot:
 
-If it gives port error , change the ```ganache_url``` in the ```exam_app/smart_contract_integration.py``` file to your ganache port. 
+If it gives port error , change the ```ganache_url``` in the ```exam_app/authentication/smart_contract_integration.py``` file to your ganache port. 
 
 Download ganache from https://trufflesuite.com/ganache/ , if it is not installed
 
