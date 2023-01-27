@@ -1,0 +1,52 @@
+pragma solidity ^0.8.12;
+import "@openzeppelin/contracts/utils/Strings.sol";
+import "hardhat/console.sol";
+
+contract Mycontract
+{
+    mapping(string=>string) public dictionary;
+
+    function createdictionary() public {
+        dictionary ["q1"]="What is a smart contract?";
+
+        dictionary["q2"]= "What are NFTs?";
+        
+        dictionary["q3"]= "What is a blockchain?";
+        
+        dictionary["q4"]= "Name some open source IDEs to build smart contract?";
+    
+        dictionary["q5"]= "What is EVM?";
+
+        dictionary["q6"]= "what is web3.0? How is it different from web 2.0?";
+        
+        dictionary["q7"]= "What is Defi? How is it different from centralized finance?";
+        
+        dictionary["q8"]= "What is crypto?";
+
+        dictionary["q9"]= "What is metamask?";
+        
+        dictionary["q10"]= "What is solidity?";
+        
+        dictionary["q11"]= "What is etherum?";
+
+        console.log("xyz");
+    }
+        
+    
+
+    uint randomint = 1;
+ 
+    // Defining a function to generate
+    // a random question
+    function randMod() public returns(string memory) 
+    {
+    
+    randomint++; 
+    uint x= uint(keccak256(abi.encodePacked(block.timestamp,msg.sender,randomint)))%11;
+    string memory q=string.concat("q",Strings.toString(x));
+    string memory question=dictionary[q];
+    console.log (question);
+    return question;
+
+    }
+    }
