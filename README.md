@@ -1,5 +1,6 @@
 # Decentralized Exam App
-An exam app built using Django and Solidity. Teachers and professors can use this to generate random question to a student from a set of question bank.
+An exam app built using Django and Solidity. Teachers and professors can use this to generate random questions for a student from a set of question banks.
+Professors can upload a set of questions to this web app. The smart contract integrated into the app will upload the questions to the blockchain. The web app will then fetch the questions from the blockchain and display a different set of questions for each user (student) who logs into the platform. 
 
 ## Installation
 1. Clone the repo on your system.
