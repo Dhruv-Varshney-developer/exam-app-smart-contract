@@ -16,7 +16,7 @@ $ python3 -m pip install Django
 ```
 in terminal.
 
-5)install web3.py using
+5. Install web3.py using
 
 ```
 $ pip3 install web3
@@ -30,17 +30,17 @@ $ pip install web3
 
 Detailed documentation is available at: https://web3py.readthedocs.io/en/stable/quickstart.html
 
-## Note: 
+### Note: 
 These are some modules which you might need to install after these. Install all of them using
 ```pip3 install <module name> ``` or ```pip install <module name> ```
 If you still are not able to run the project, simply google up the necessary module and install it. 
 Contact me if you are not able to run the app even after googling.
 
-6)move to the `exam_app` project by `cd exam_app`in terminal.
+6. Move to the `exam_app` project by `cd exam_app`in terminal.
 
-7)run ` python3 manage.py runserver ` in terminal after all necessary modules and libraries are installed. 
+7. Run `python3 manage.py runserver ` in terminal after all necessary modules and libraries are installed. 
 
-## Troubleshoot:
+### Troubleshoot:
 
 If it gives port error , change the `ganache_url` in the `exam_app/authentication/smart_contract_integration.py` file to your ganache port. 
 
